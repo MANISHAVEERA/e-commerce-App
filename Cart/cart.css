@@ -1,0 +1,14 @@
+.button-solid {
+    border: none;
+}
+button-solid:focus {
+    border: none;
+    outline: none;
+}
+.navigation a{
+    color: black;
+}
+.ctable{
+    margin-left:10%;
+    margin-right: 10%;
+}

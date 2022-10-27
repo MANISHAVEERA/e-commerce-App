@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./../Home/style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="container">
+
+            <div class="row d-flex justify-content-md-center ">
+                <div class="col-md-6 d-flex">
+                    <div class="dropdown">
+                        <button class="button-solid dropdown-toggle" style="font-size: 10px;background-color: white;"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="button-solid dropdown-toggle" style="font-size: 10px;background-color: white;"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </button>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <i class="fa-solid fa-user"></i><span class="fs-2 fw-b p-2">My Profile</span>
+                    <i class="fa-solid fa-cart-shopping"></i><span class="fs-2 fw-b p-2">0 items</span><span
+                        class="text-muted pt-2">$0.00</span>
+                    <i class="fa-solid fa-magnifying-glass p-2"></i>
+
+
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-md-center">
+                <img src="./images/shoperstop1.png" width="200px" height="100px" alt="">
+            </div>
+
+            <div class="navigation d-flex justify-content-md-center">
+                <nav class="navbar navbar-expand-sm ">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">STORE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">IPHONE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">IPAD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MACBOOK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCESSORIES</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="breadcrumbNav" style="width: 100%;">
+
+        <div class="row ">
+            <div class="col-lg-12">
+                <nav aria-label="breadcrumb ">
+                    <ol class="breadcrumb justify-content-md-center">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Accessories</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Beats Solo 2 headphones-Black</li>
+                    </ol>
+                </nav>
+
+            </div>
+
+            <div class=" col col-md-3  pl-4 ">
+
+                <div class="card ">
+                    <div class="card-body sidenav accessories">
+                        <h5 class="card-title ">ACCESSORIES</h5>
+
+                        <P><a href="#" class="card-link active">Apple Car<span class="float-right">2</span></a></P>
+                        <P><a href="#" class="card-link " style="color: blue;">Air port & wireless<span
+                                    class="float-right">48</span></a></P>
+                        <P><a href="#" class="card-link ">Cables & docks<span class="float-right">14</span></a></P>
+                        <P><a href="#" class="card-link ">Headphones<span class="float-right">15</span></a></P>
+                        <P><a href="#" class="card-link active">Charging devices<span class="float-right">23</span></a>
+                        </P>
+                    </div>
+                </div>
+
+                <div class="card mt-5">
+                    <div class="card-body sidenav accessories">
+                        <h5 class="card-title ">PRICES</h5>
+
+                        <P><a href="#" class="card-link">Ranger:<span class="float-right">$13.99-$25.99</span></a></P>
+                        <input type="range" class="form-range" min="0" max="5" id="customRange2" style="width: 100%;">
+
+                    </div>
+                </div>
+
+                <div class="card mt-5">
+                    <div class="card-body sidenav accessories">
+                        <h5 class="card-title ">COLOR</h5>
+
+                        <P>
+                            <input type="color" value="#ca5492">
+                            <input type="color" value="#6a73b6">
+                            <input type="color" value="#088da5">
+                            <input type="color" value="#6ae8cd">
+
+                        </P>
+
+
+                    </div>
+                </div>
+
+                <div class="card mt-5">
+                    <div class="card-body sidenav accessories">
+                        <h5 class="card-title ">BRAND</h5>
+
+                        <P><a href="#" class="card-link active">Apple<span class="float-right">99</span></a></P>
+                        <P><a href="#" class="card-link " style="color: blue;">LG<span class="float-right">99</span></a>
+                        </P>
+                        <P><a href="#" class="card-link ">Samsung<span class="float-right">99</span></a></P>
+                        <P><a href="#" class="card-link ">Semens<span class="float-right">99</span></a></P>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col col-md-9 ">
+                <div class="row d-flex  iphone mb-4">
+
+                    <div class="col pt-4 text-white text-center">
+                        <h5><b>Iphone 6 Plus</b></h5>
+                        <p>Performance and design. Taken right to the edge.</p>
+                        <button class="btn btn-link text-white" style="text-decoration: underline;">Shop Now</button>
+
+                    </div>
+
+                    <div class="col pt-2">
+                        <img src="./images/iPhone.png" width="320px" height="300px" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="box ">
+                    <div class="row">
+                        <div class="col col-md-4 "><strong>12 items</strong> </div>
+                        <div class="col col-md-7 ">
+                            <form class="form-inline d-block d-lg-flex justify-content-between flex-column flex-md-row">
+                                <div class=""><strong>Show</strong>
+                                    <select name="sort-by" class="form-control">
+                                        <option>12</option>
+                                        <option>24</option>
+                                        <option>All</option>
+                                    </select>
+                                </div>
+                                <div class=" mt-2 mt-lg-0"><strong>Sort by</strong>
+                                    <select name="sort-by" class="form-control">
+                                        <option>Price</option>
+                                        <option>Name</option>
+                                        <option>Sales first</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+
+
+                        <div class="col">
+                            <a href=""><img src="./images/grid.png" width="10px" height="15px" alt=""></a>
+
+
+                            <i class="fa-sharp fa-solid fa-bars fa-xl pl-2"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="products" style="padding-top:7%;">
+                    <div class=" d-flex flex-wrap justify-content-center m-4 ">
+
+                        <div class="card mb-3" style="width: 100%; border: none;">
+                            <div class="row g-0 ">
+                                <div class="col-md-4">
+                                    <img src="./images/pexels-karsten-madsen-18105.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beats solo 2 Headphone-black</h5>
+                                        <p class="card-text"><small class="text-muted">
+
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#e4e4e4"></i>
+
+                                                &nbsp; 0 reviews
+                                                &nbsp; <button class="btn btn-link"
+                                                    style="text-decoration: none;">Submit a review</button>
+
+                                            </small>
+                                        </p>
+                                        <hr>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural </p>
+                                        <p class="card-text ">
+                                            <button class="btn btn-outline-primary">
+                                                <i class="fa-sharp fa-solid fa-cart-shopping "></i>Add to cart</button>
+                                            <button class=" btn btn-outline-primary"><i
+                                                    class="fa-regular fa-heart"></i></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="width: 100%; border: none;">
+                            <div class="row g-0 ">
+                                <div class="col-md-4">
+                                    <img src="./images/pexels-karsten-madsen-18105.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beats solo 2 Headphone-black</h5>
+                                        <p class="card-text"><small class="text-muted">
+
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#e4e4e4"></i>
+
+                                                &nbsp; 0 reviews
+                                                &nbsp; <button class="btn btn-link"
+                                                    style="text-decoration: none;">Submit a review</button>
+
+                                            </small>
+                                        </p>
+                                        <hr>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural </p>
+                                        <p class="card-text "><button class="btn btn-outline-primary"><i
+                                                    class="fa-sharp fa-solid fa-cart-shopping"></i>Add to cart</button>
+                                            <button class="m-2 btn btn-outline-primary"><i
+                                                    class="fa-regular fa-heart"></i></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="width: 100%; border: none;">
+                            <div class="row g-0 ">
+                                <div class="col-md-4">
+                                    <img src="./images/pexels-karsten-madsen-18105.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beats solo 2 Headphone-black</h5>
+                                        <p class="card-text"><small class="text-muted">
+
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#e4e4e4"></i>
+
+                                                &nbsp; 0 reviews
+                                                &nbsp; <button class="btn btn-link"
+                                                    style="text-decoration: none;">Submit a review</button>
+
+                                            </small>
+                                        </p>
+                                        <hr>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural </p>
+                                        <p class="card-text "><button class="btn btn-outline-primary"><i
+                                                    class="fa-sharp fa-solid fa-cart-shopping"></i>Add to cart</button>
+                                            <button class="m-2 btn btn-outline-primary"><i
+                                                    class="fa-regular fa-heart"></i></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="width: 100%; border: none;">
+                            <div class="row g-0 ">
+                                <div class="col-md-4 ">
+                                    <img src="./images/pexels-karsten-madsen-18105.jpg" class="img-fluid rounded-start"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beats solo 2 Headphone-black</h5>
+                                        <p class="card-text"><small class="text-muted">
+
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#ffd93b"></i>
+                                                <i class="fas fa-star star1" style="color:#e4e4e4"></i>
+
+                                                &nbsp; 0 reviews
+                                                &nbsp; <button class="btn btn-link"
+                                                    style="text-decoration: none;">Submit a review</button>
+
+                                            </small>
+                                        </p>
+                                        <hr>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural </p>
+                                        <p class="card-text "><button class="btn btn-outline-primary"><i
+                                                    class="fa-sharp fa-solid fa-cart-shopping"></i>Add to cart</button>
+                                            <button class="m-2 btn btn-outline-primary"><i
+                                                    class="fa-regular fa-heart"></i></button></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="row d-flex justify-content-md-center p-5">
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item"><a href="#" aria-label="Previous" class="page-link"><span
+                                        aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
+                            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                            <li class="page-item"><a href="#" class="page-link">2</a></li>
+                            <li class="page-item"><a href="#" class="page-link">3</a></li>
+                            <li class="page-item"><a href="#" class="page-link">4</a></li>
+                            <li class="page-item"><a href="#" class="page-link">5</a></li>
+                            <li class="page-item"><a href="#" aria-label="Next" class="page-link"><span
+                                        aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <hr>
+        <div class="container">
+            <div class="row gy-5 d-flex justify-content-md-center">
+                <div class="col">
+                    <h4 class="text-muted"><b>BOUNCER</b></h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vitae cum molestias ut nemo
+                        ullam at, explicabo praesentium sunt quam maxime, quia distinctio velit nam quisquam expedita,
+                        dolor voluptas debitis.</p>
+                </div>
+                <div class="col">
+                    <h5>Follow Us</h5>
+                    <p>Since 1500s, when an unknown printer took a gallery of type and scambled </p>
+                    <div class="footer-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter pl-3"></i></i></a>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h5>Contact</h5>
+                    <div>
+                        <p class="mb">1649 Sangam street, Chennai, 600044</p>
+                        <p class="mb-">+91-7402399267</p>
+                        <p class="mb">frutazon@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row d-flex justify-content-md-center p-4">
+
+                <div class="col">
+                    <p><b>Information</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <p><b>Services</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <p><b>Extras</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <p><b>My account</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <p><b>Useful Links</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <p><b>Our offers</b></p>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+        <hr>
+        <div class="row justify-content-between p-2">
+            <div class="col-md-6">
+                <p>© shoppers stop. All rights reserved</p>
+            </div>
+            <div class="col-auto">
+                <p>
+                    <a href=""><i class="fa-brands fa-cc-mastercard"></i></a>
+                    <a href=""><i class="fa-brands fa-cc-visa"></i></a>
+                    <a href=""><i class="fa-brands fa-cc-paypal"></i></a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.button-solid {
+    border: none;
+}
+button-solid:focus {
+    border: none;
+    outline: none;
+}
+.navigation a{
+    color: black;
+}
+
+
+.slider{
+   
+   position: relative;
+}
+
+.offer{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+.shop{
+    margin: 10%;
+}
+
+.iphone{
+    background-color: rgba(4, 8, 250, 0.678);
+}
+@media screen and (max-width: 980px) {
+
+    .offer{
+        position: relative;
+       padding-top: 2%;
+       left: 13%;
+    }
+}
